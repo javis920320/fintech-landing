@@ -1,0 +1,67 @@
+[
+    {
+      "id": "1",
+      "name": "Cuenta de Ahorros Flexible",
+      "type": "Cuenta",
+      "category": "Ahorros",
+      "interestRate": "2.5%",
+      "riskLevel": "Bajo"
+    },
+    {
+      "id": "2",
+      "name": "Tarjeta de Crédito Oro",
+      "type": "Tarjeta",
+      "category": "Crédito",
+      "interestRate": "19.9%",
+      "riskLevel": "Medio"
+    },
+    {
+      "id": "3",
+      "name": "Fondo de Inversión Conservador",
+      "type": "Fondo",
+      "category": "Inversión",
+      "interestRate": "4.2%",
+      "riskLevel": "Bajo"
+    },
+    {
+      "id": "4",
+      "name": "Cuenta Corriente Premium",
+      "type": "Cuenta",
+      "category": "Corriente",
+      "interestRate": "0%",
+      "riskLevel": "Bajo"
+    },
+    {
+      "id": "5",
+      "name": "Seguro de Vida Familiar",
+      "type": "Seguro",
+      "category": "Seguros",
+      "interestRate": null,
+      "riskLevel": "N/A"
+    },
+    {
+      "id": "6",
+      "name": "Fondo de Crecimiento Alto Riesgo",
+      "type": "Fondo",
+      "category": "Inversión",
+      "interestRate": "8.5%",
+      "riskLevel": "Alto"
+    },
+    {
+      "id": "7",
+      "name": "Tarjeta Débito Básica",
+      "type": "Tarjeta",
+      "category": "Débito",
+      "interestRate": "0%",
+      "riskLevel": "Bajo"
+    },
+    {
+      "id": "8",
+      "name": "Seguro Vehicular Plus",
+      "type": "Seguro",
+      "category": "Seguros",
+      "interestRate": null,
+      "riskLevel": "Medio"
+    }
+  ]
+  
