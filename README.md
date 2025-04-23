@@ -27,7 +27,7 @@ Landing page para mostrar productos financieros de una fintech ficticia.
 ## 📦 Instalación local
 
 ```bash
-git clone https://github.com/tuusuario/fintech-landing.git
+git clone https://github.com/javis920320/fintech-landing.git
 cd fintech-landing
 npm install
 npm run dev
