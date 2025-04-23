@@ -5,3 +5,8 @@ export type Product={
     interestRate:string|null;
     riskLevel:string;  
 }
+
+export type Categorys={
+ id:string;
+ name:string;   
+}
