@@ -1,5 +1,4 @@
-"use client";
-
+"use client"
 import { Product } from "../../types/product";
 import products from "../../data/products.json";
 import Link from "next/link";
@@ -33,7 +32,7 @@ const BackLink = styled(Link).attrs({
   className: "text-indigo-400 hover:underline text-sm sm:text-base",
 })``;
 
-const  ProductDetail=({ params }: Params)=> {
+export default function ProductDetail({ params }: { params: { id: string } }) {
   const product: Product | undefined = products.find((p) => p.id === params.id);
 
   if (!product) return notFound();
@@ -61,4 +60,3 @@ const  ProductDetail=({ params }: Params)=> {
     </div>
   );
 }
-export default ProductDetail;
