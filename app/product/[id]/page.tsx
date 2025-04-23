@@ -32,8 +32,10 @@ const BackLink = styled(Link).attrs({
   className: "text-indigo-400 hover:underline text-sm sm:text-base",
 })``;
 
-export default function ProductDetail({ params }: { params: { id: string } }) {
-  const product: Product | undefined = products.find((p) => p.id === params.id);
+export default async function ProductDetail({ params }: { params: Promise<{ id: string }> }) {
+  const resolvedParams = await params;
+  const product: Product | undefined = products.find((p) => p.id === resolvedParams.id);    
+
 
   if (!product) return notFound();
 
